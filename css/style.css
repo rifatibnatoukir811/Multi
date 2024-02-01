@@ -15,7 +15,6 @@ ul{
     position: absolute;
     width: 100%;
     height: 92px;
-
 }
 .menu-bg ul li{
     padding-right: 30px;
@@ -25,6 +24,9 @@ ul{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 500;
+}
+.nav-item{
+    margin-top: 9px;
 }
 .nav-btn a{
     padding: 16px 48px;
@@ -736,3 +738,298 @@ footer{
 }
 
 /* copyright part end */
+
+
+/* responsive part start */
+@media(max-width:575px){
+    #banner {
+        padding-top: 130px;
+        padding-bottom: 100px;
+    }
+    .menu-bg button {
+        background-color: #D7D9FA;
+        border: none; 
+        margin-right: 30px;
+    }
+    .menu-bg img{
+        padding-left: 30px;
+    }
+    .menu-bg ul{
+        text-align: end;
+    }
+    .menu-bg ul li {
+        background-color: #fff;
+        border-radius: 5px;
+        margin-right: 30px;
+        margin-left: 340px;
+        text-align: end;
+    }
+    .menu-bg ul li a {
+        color: #090909 !important;
+        font-size: 11px;
+    }
+    .nav-item {
+        margin-top: 2px;
+    }
+    .nav-btn a {
+        padding: 10px 14px;
+        border-radius: 13px;
+        color: #FFF !important;
+        font-size: 14px;
+        margin-right: 30px;
+        margin-top: 5px;
+    }
+    .banner-data h1 {
+        font-size: 42px;
+        line-height: 44px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .banner-data h2 {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .banner-btn {
+        margin-top: 25px;
+        padding-bottom: 20px;
+        margin-left: 100px;
+    }
+    .banner-btn a {
+        padding: 10px 40px;
+        font-size: 10px;
+        margin-right: 9px;
+    }
+    .ban-img img{
+        width: 350px;
+        margin-left: 90px;
+    }
+    #ban-2 {
+        padding-top: 45px;
+        padding-bottom: 60px;
+    }
+    .ban-main h2 {
+        font-size: 30px;
+        line-height: 24px;
+        padding-bottom: 5px;
+        margin-left: 30px;
+    }
+    .ban-main h4 {
+        font-size: 11px;
+        line-height: 28px;
+        padding-bottom: 5px;
+        margin-left: 30px;
+    }
+    .ban-main a {
+        font-size: 9px;
+        line-height: 49px;
+        margin-left: 30px;
+    }
+    .one img {
+        width: 25px;
+        height: 25px;
+        line-height: 20px;
+    }
+    .one {
+        padding: 15px 22px 8px 42px;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .one h3 {
+        font-size: 20px;
+        line-height: 15px;
+    }
+    .one h4 {
+        font-size: 10px;
+        line-height: 19px;
+        padding-top: 1px;
+    }
+    .projects h2 {
+        font-size: 30px;
+        line-height: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .projects h4 {
+        font-size: 10px;
+        line-height: 31px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .left img{
+        width: 450px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+    .right .top img{
+        width: 450px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+    .right .bottom img{
+        width: 450px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    #features {
+        padding-bottom: 60px;
+        padding-top: 50px;
+    }
+    .text-fea p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .text-fea h5 {
+        font-size: 30px;
+        line-height: 30px;
+        width: 477px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .one img {
+        width: 20px;
+        height: 20px;
+    }
+    .one h3 {
+        font-size: 15px;
+        line-height: 10px;
+    }
+    .one p {
+        font-size: 10px;
+        line-height: 15px;
+        width: 315px;
+    }
+    #about {
+        padding-top: 89px;
+        padding-bottom: 80px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .about-left h3 {
+        font-size: 20px;
+        line-height: 27px;
+        width: 206px;
+    }
+    .about-left p {
+        font-size: 10px;
+        line-height: 13px;
+        width: 220px;
+    }
+    .about-right h5 {
+        font-size: 20px;
+        line-height: 33px;
+        width: 440px;
+    }
+    .qns-head h2 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .qns-head p {
+        margin-top: 5px;
+        margin-left: 30px;
+    }
+    .accordion{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .form-overly h2 {
+        font-size: 30px;
+        line-height: 39px;
+        width: 350px;
+    }
+    .form-overly p {
+        font-size: 13px;
+        line-height: 17px;
+        margin-top: 19px;
+        width: 350px;
+    }
+    .r-text h3 {
+        font-size: 29px;
+        line-height: 16px;
+        padding-bottom: 14px;
+    }
+    .r-text p {
+        font-size: 16px;
+        line-height: 28px;
+        width: 390px;
+        margin-right: 30px;
+    }
+    input {
+        width: 378px;
+        height: 51px;
+        padding-left: 29px;
+    }
+    .r-text .submit {
+        width: 380px;
+    }
+    .r-text a {
+        width: 400px;
+    }
+    #blog {
+        margin-top: 70px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .card {
+        margin-top: 26px;
+    }
+    .fot-data p {
+        font-size: 10px;
+        line-height: 12px;
+        margin-top: 7px;
+        margin-left: 30px;
+    }
+    .fot-data img {
+        width: 140px;
+        height: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .yollow {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .fot-data-1 h2 {
+        font-size: 35px;
+        line-height: 52px;
+        margin-left: 30px;
+    }
+    .fot-data-1 p {
+        font-size: 13px;
+        line-height: 23px;
+        width: 399px;
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+    .icon {
+        margin-left: 30px;
+    }
+    .copyright h6 {
+        font-size: 10px;
+        line-height: 15px;
+        margin-left: 30px;
+    }
+    .copy-menu ul li a {
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .c-img img {
+        width: 568px;
+    }
+    .form-overly {
+        width: 568px;
+    }
+}
+
+
+/* responsive part end */

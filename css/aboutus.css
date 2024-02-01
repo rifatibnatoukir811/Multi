@@ -25,6 +25,9 @@ ul{
     font-size: 16px;
     font-weight: 500;
 }
+.nav-btn{
+    margin-top: 7px;
+}
 .nav-btn a{
     padding: 16px 48px;
     text-align: center;
